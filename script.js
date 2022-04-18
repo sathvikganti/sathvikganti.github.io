@@ -9,7 +9,7 @@ $(document).ready(function () {
     $("#arrowright").click(function () {
         if (document.getElementById("heading").innerText == "Intro") {
             $(".mainbar").load("/projects.html .mainbar");
-            var state = false;
+            state = false;
         } else {
             $(".mainbar").load("/other.html .mainbar");
             state = true;
@@ -18,10 +18,10 @@ $(document).ready(function () {
     $("#arrowleft").click(function () {
         if (state) {
             $(".mainbar").load("/projects.html .mainbar");
-            var state = false;
+            state = false;
         } else {
             $(".mainbar").load("/index.html .mainbar");
-            var state = false;
+            state = false;
         }
     });
 });
