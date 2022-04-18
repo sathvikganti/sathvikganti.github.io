@@ -5,20 +5,23 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 $(document).ready(function () {
+    var state = false;
     $("#arrowright").click(function () {
         if (document.getElementById("heading").innerText == "Intro") {
             $(".mainbar").load("/projects.html .mainbar");
-        } 
-        if (document.getElementById("heading").innerText == "Projects") {
+            var state = false;
+        } else {
             $(".mainbar").load("/other.html .mainbar");
+            state = true;
         }
     });
     $("#arrowleft").click(function () {
-        if (document.getElementById("heading").innerText == "Other") {
+        if (state) {
             $(".mainbar").load("/projects.html .mainbar");
-        } 
-        if (document.getElementById("heading").innerText == "Projects") {
+            var state = false;
+        } else {
             $(".mainbar").load("/index.html .mainbar");
+            var state = false;
         }
     });
 });
