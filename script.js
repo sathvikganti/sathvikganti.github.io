@@ -4,3 +4,20 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     document.body.innerHTML = "<center><p>INCOMPATIBLE DEVICE: I'm too lazy to make this website mobile-compatible. Check back later!</p></center>";
 }
 
+$(document).ready(function () {
+    $("#arrowright").click(function () {
+        if (document.URL.includes("index.html" || "index")) {
+            $("#response").load("/projects.html");
+        } else {
+            $("#response").load("/other.html");
+        }
+    });
+    $("#arrowleft").click(function () {
+        $("#arrowleft").click(function () {
+        if (document.URL.includes("other.html" || "other")) {
+            $("#response").load("/projects.html");
+        } else {
+            $("#response").load("/index.html");
+        }
+    });
+});
