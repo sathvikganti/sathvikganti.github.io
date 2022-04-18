@@ -5,13 +5,22 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 $(document).ready(function () {
+    $.get('/projects.html', function(data) {
+            body2 = $(data).find('.mainbar')
+    });
+    $.get('/others.html', function(data) {
+            body3 = $(data).find('.mainbar')
+    });
+    $.get('/index.html', function(data) {
+            body1 = $(data).find('.mainbar')
+    });
     $("#arrowright").click(function () {
         if (document.URL.includes("index.html" || "index")) {
-            $("body").load($("/projects.html").find('mainbar').html());
+            $("body").load(body2);
         } else if (document.URL.includes("other.html" || "other")) {
-            $("body").load("/other.html");
+            $("body").load(body3);
         } else {
-             $("body").load("/projects.html");
+             $("body").load(body2);
         }
     });
     $("#arrowleft").click(function () {
