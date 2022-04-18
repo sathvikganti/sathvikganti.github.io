@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="http://pm1.narvii.com/7586/d04ef2ee430f3b3b97512c9f2dcaef8df53367c8r1-360-360v2_uhq.jpg" />
+
+    <title>Sathvik Ganti</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="pfp">
+        <!-- <img src="http://pm1.narvii.com/7586/d04ef2ee430f3b3b97512c9f2dcaef8df53367c8r1-360-360v2_uhq.jpg" class="pfpimg"> -->
+      </div>
+      <h1 class="name">
+      Sathvik Ganti
+      </h1>
+      <h4 class="intro">
+         A Programmer, Engineer, and Space Enthusiast<br> <strong>Student</strong> at Metea Valley High School
+      </h4>
+      <a href="https://github.com/CodedHuman" target="_blank" rel="noopener noreferrer">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="git">
+      </a>
+    </div>
+    <div class="mainbar">
+      <h1 id="heading">
+        Projects
+      </h1>
+      <!--Divider-->
+      <hr style="width: 100%; margin-left:0; margin-top: 30px; margin-bottom: 45px;">
+      <!--Body Text-->
+      <p id="para">
+        This is the projects page.
+      </p>
+      <br>
+      <div class="arrows">
+      <!--Right Arrow-->
+        <a>
+          <img src="https://cdn-icons.flaticon.com/png/512/2989/premium/2989988.png?token=exp=1650250680~hmac=920fc488acf7965c919c887bd22d8b6d" class="arrowright" id="arrowright" onclick="">
+        </a>
+      <!--Left Arrow-->
+        <a>
+          <img src="https://cdn-icons.flaticon.com/png/512/2989/premium/2989988.png?token=exp=1650250680~hmac=920fc488acf7965c919c887bd22d8b6d" class="arrowleft" id="arrowleft" onclick="window.location = '/index.html'">
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
