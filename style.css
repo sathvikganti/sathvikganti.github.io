@@ -105,6 +105,16 @@ END Glitch hello-app default styles
      }
 }
 
+@keyframes fadeInAnimation2 {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0.6;
+     }
+}
+
+
 body {
   font-family: HK Grotesk;
   background-color: #FBFAF5;
@@ -200,7 +210,7 @@ h2 {
   width: 100px;
   padding-top: 40%;
   margin-left: 80%;
-  animation: ease 0.2s fadeInAnimation;
+  animation: ease 0.2s fadeInAnimation2;
 }
 
 .pfpimg {
@@ -213,7 +223,7 @@ h2 {
   color: white;
   opacity: 0.6;
   padding-top: 100px;
-  animation: ease 0.2s fadeInAnimation;
+  animation: ease 0.2s fadeInAnimation2;
 }
 
 .intro {
@@ -222,7 +232,7 @@ h2 {
   opacity: 0.6;
   line-height: 40px;
   font-weight: 400;
-  animation: ease 0.2s fadeInAnimation;
+  animation: ease 0.2s fadeInAnimation2;
 }
 
 .git {
@@ -232,7 +242,7 @@ h2 {
   margin-left: 80%;
   margin-top: 80px;
   filter: brightness(200%);
-  animation: ease 0.2s fadeInAnimation;
+  animation: ease 0.2s fadeInAnimation2;
 }
 
 .mainbar {
