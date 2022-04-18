@@ -291,24 +291,24 @@ h2 {
 }
 
 .mainbar h1 {
-  float: left;
   margin-right: 30px;
+  display: inline;
 }
 
 .head1 {
-  
+  display: inline;
 }
 
 .head2 {
-  
+  display: inline;
 }
 
 .head3 {
-  
+  display: inline;
 }
 
 .nav {
-  
+  display: inline;
 }
 
 html {
