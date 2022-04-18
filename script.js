@@ -6,16 +6,16 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 $(document).ready(function () {
     $("#arrowright").click(function () {
-        if (document.URL.includes("index.html" || "index")) {
+        if (document.getElementById("mainbar").textContent == "Intro") {
             $(".mainbar").load("/projects.html .mainbar");
-        } else if (document.URL.includes("other.html" || "other")) {
+        } else if (document.getElementById("mainbar").textContent == "Projects") {
             $(".mainbar").load("/others.html .mainbar");
         } else {
              $(".mainbar").load("/projects.html .mainbar");
         }
     });
     $("#arrowleft").click(function () {
-        if (document.URL.includes("other.html" || "other")) {
+        if (document.getElementById("mainbar").textContent == "Other") {
             $(".mainbar").load("/projects.html .mainbar");
         } else {
             $(".mainbar").load("/index.html .mainbar");
