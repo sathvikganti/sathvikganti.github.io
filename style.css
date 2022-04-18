@@ -96,17 +96,6 @@ a:not(.btn--remix):visited {
 END Glitch hello-app default styles
 ******************************************************************************/
 
-body {
-  font-family: HK Grotesk;
-  background-color: #FBFAF5;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
 @keyframes fadeInAnimation {
     0% {
         opacity: 0.1;
@@ -114,6 +103,15 @@ body {
     100% {
         opacity: 1;
      }
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: #FBFAF5;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  animation: ease 1s fadeInAnimation;
 }
 
 /* Page structure */
