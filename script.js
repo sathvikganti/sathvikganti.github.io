@@ -9,7 +9,7 @@ $(document).ready(function () {
         if (document.getElementById("heading").textContent == "Intro") {
             $(".mainbar").load("/projects.html .mainbar");
         } else if (document.getElementById("heading").textContent == "Projects") {
-            $(".mainbar").load("/others.html .mainbar");
+            $(".mainbar").load("/other.html .mainbar");
         } else {
              $(".mainbar").load("/projects.html .mainbar");
         }
