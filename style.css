@@ -98,7 +98,7 @@ END Glitch hello-app default styles
 
 @keyframes fadeInAnimation {
     0% {
-        opacity: 0.4;
+        opacity: 0.5;
     }
     100% {
         opacity: 1;
@@ -241,6 +241,13 @@ h2 {
   color: #4d4d4d;
   line-height: 30px;
   position: relative;
+}
+
+.mainbar p {
+ animation: ease 0.5s fadeInAnimation; 
+}
+
+.mainbar h1 {
   animation: ease 0.5s fadeInAnimation;
 }
 
