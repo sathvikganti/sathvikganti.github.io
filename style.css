@@ -193,6 +193,7 @@ h2 {
   text-align: right;
   padding-right: 70px;
   float: left;
+  animation: ease 0.2s fadeInAnimation;
 }
 
 .pfp {
@@ -261,6 +262,7 @@ h2 {
   transition: all 0.5s ease;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+  animation: ease 0.2s fadeInAnimation;
 }
 
 .arrowleft {
@@ -269,6 +271,7 @@ h2 {
   display: inline-block;
   float: left;
   transition: all 0.5s ease;
+  animation: ease 0.2s fadeInAnimation;
 }
 
 .arrowright:hover {
