@@ -98,7 +98,7 @@ END Glitch hello-app default styles
 
 @keyframes fadeInAnimation {
     0% {
-        opacity: 0.5;
+        opacity: 0.6;
     }
     100% {
         opacity: 1;
@@ -193,7 +193,6 @@ h2 {
   text-align: right;
   padding-right: 70px;
   float: left;
-  animation: ease 0.2s fadeInAnimation;
 }
 
 .pfp {
@@ -201,6 +200,7 @@ h2 {
   width: 100px;
   padding-top: 40%;
   margin-left: 80%;
+  animation: ease 0.2s fadeInAnimation;
 }
 
 .pfpimg {
@@ -213,7 +213,7 @@ h2 {
   color: white;
   opacity: 0.6;
   padding-top: 100px;
-
+  animation: ease 0.2s fadeInAnimation;
 }
 
 .intro {
@@ -222,6 +222,7 @@ h2 {
   opacity: 0.6;
   line-height: 40px;
   font-weight: 400;
+  animation: ease 0.2s fadeInAnimation;
 }
 
 .git {
@@ -231,6 +232,7 @@ h2 {
   margin-left: 80%;
   margin-top: 80px;
   filter: brightness(200%);
+  animation: ease 0.2s fadeInAnimation;
 }
 
 .mainbar {
