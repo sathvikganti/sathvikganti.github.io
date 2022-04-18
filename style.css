@@ -111,7 +111,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  animation: ease 1s fadeInAnimation;
 }
 
 /* Page structure */
@@ -242,6 +241,7 @@ h2 {
   color: #4d4d4d;
   line-height: 30px;
   position: relative;
+  animation: ease 0.5s fadeInAnimation;
 }
 
 .arrowright {
