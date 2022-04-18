@@ -306,6 +306,10 @@ h2 {
   
 }
 
+.nav {
+ text-align: center; 
+}
+
 html {
   height: 100%;
 }
