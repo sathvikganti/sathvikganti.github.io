@@ -242,6 +242,8 @@ h2 {
   display: inline-block;
   float: right;
   transition: all 0.5s ease;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .arrowleft {
@@ -250,8 +252,6 @@ h2 {
   display: inline-block;
   float: left;
   transition: all 0.5s ease;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 
 .arrowright:hover {
