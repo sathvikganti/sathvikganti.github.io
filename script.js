@@ -8,16 +8,16 @@ $(document).ready(function () {
     $("#arrowright").click(function () {
         if (document.getElementById("heading").textContent == "Intro") {
             $(".mainbar").load("/projects.html .mainbar");
-        } else if (document.getElementById("heading").textContent == "Projects") {
+        } 
+        if (document.getElementById("heading").textContent == "Projects") {
             $(".mainbar").load("/other.html .mainbar");
-        } else {
-             $(".mainbar").load("/projects.html .mainbar");
         }
     });
     $("#arrowleft").click(function () {
         if (document.getElementById("heading").textContent == "Other") {
             $(".mainbar").load("/projects.html .mainbar");
-        } else {
+        } 
+        if (document.getElementById("heading").textContent == "Projects") {
             $(".mainbar").load("/index.html .mainbar");
         }
     });
