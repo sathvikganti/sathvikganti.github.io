@@ -7,17 +7,16 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 $(document).ready(function () {
     $("#arrowright").click(function () {
         if (document.URL.includes("index.html" || "index")) {
-            $("#response").load("/projects.html");
+            $("#mainbar").load("/projects.html");
         } else {
-            $("#response").load("/other.html");
+            $("mainbar").load("/other.html");
         }
     });
     $("#arrowleft").click(function () {
-        $("#arrowleft").click(function () {
         if (document.URL.includes("other.html" || "other")) {
-            $("#response").load("/projects.html");
+            $("mainbar").load("/projects.html");
         } else {
-            $("#response").load("/index.html");
+            $("mainbar").load("/index.html");
         }
     });
 });
