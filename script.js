@@ -6,7 +6,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 $(document).ready(function () {
     $("#arrowright").click(function () {
-        if (document.URL.includes("index.html" || "index")) {
+        if (document.URL.includes("index.html" || "index" || "")) {
             $("body").load("/projects.html");
         } else {
             $("body").load("/other.html");
