@@ -6,18 +6,18 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 $(document).ready(function () {
     $("#arrowright").click(function () {
-        if (document.getElementById("heading").textContent == "Intro") {
+        if (document.getElementById("heading").innerText == "Intro") {
             $(".mainbar").load("/projects.html .mainbar");
         } 
-        if (document.getElementById("heading").textContent == "Projects") {
+        if (document.getElementById("heading").innerText == "Projects") {
             $(".mainbar").load("/other.html .mainbar");
         }
     });
     $("#arrowleft").click(function () {
-        if (document.getElementById("heading").textContent == "Other") {
+        if (document.getElementById("heading").innerText == "Other") {
             $(".mainbar").load("/projects.html .mainbar");
         } 
-        if (document.getElementById("heading").textContent == "Projects") {
+        if (document.getElementById("heading").innerText == "Projects") {
             $(".mainbar").load("/index.html .mainbar");
         }
     });
