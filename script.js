@@ -4,8 +4,8 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     document.body.innerHTML = "<center><p>INCOMPATIBLE DEVICE: I'm too lazy to make this website mobile-compatible. Check back later!</p></center>";
 }
 
+var page = 0;
 $(document).ready(function () {
-    var page = 0;
     $("#arrowright").click(function () {
         if (page == 0) {
             $(".mainbar").load("/projects.html .mainbar");
