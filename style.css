@@ -293,6 +293,7 @@ h2 {
 .mainbar h1 {
   display: inline-block;
   float: left;
+  margin-right: 30px;
 }
 
 .head1 {
