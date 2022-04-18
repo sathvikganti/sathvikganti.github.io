@@ -290,8 +290,16 @@ h2 {
   filter: drop-shadow(3px 3px 3px #4a4a4a);
 }
 
-.arrows {
-  
+.head1 {
+  display: inline-block;
+}
+
+.head2 {
+  display: inline-block;
+}
+
+.head3 {
+  display: inline-block;
 }
 
 html {
