@@ -5,9 +5,6 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 stylesheet = document.styleSheets[0];
-stylesheet.insertRule(".head1 {opacity: 1}", 0);
-stylesheet.insertRule(".head2 {opacity: 0.5}", 0);
-stylesheet.insertRule(".head3 {opacity: 0.5}", 0);
 
 $(document).ready(function () {
     $(".head1").click(function () {
