@@ -7,20 +7,20 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 $(document).ready(function () {
     $(".head1").click(function () {
       $("#para").load("/index.html #para");
-      document.getElementsByClassName("head1").style.opacity = "1";
-      document.getElementsByClassName("head2").style.opacity = "0.5";
-      document.getElementsByClassName("head3").style.opacity = "0.5";
+      document.getElementsByClassName("head1")[0].style.opacity = "1";
+      document.getElementsByClassName("head2")[0].style.opacity = "0.5";
+      document.getElementsByClassName("head3")[0].style.opacity = "0.5";
     });
     $(".head2").click(function () {
       $("#para").load("/projects.html #para");
-      document.getElementsByClassName("head1").style.opacity = "0.5";
-      document.getElementsByClassName("head1").style.opacity = "1";
-      document.getElementsByClassName("head1").style.opacity = "0.5";
+      document.getElementsByClassName("head1")[0].style.opacity = "0.5";
+      document.getElementsByClassName("head1")[0].style.opacity = "1";
+      document.getElementsByClassName("head1")[0].style.opacity = "0.5";
     });
     $(".head3").click(function () {
       $("#para").load("/other.html #para");
-      document.getElementsByClassName("head1").style.opacity = "0.5";
-      document.getElementsByClassName("head1").style.opacity = "0.5";
-      document.getElementsByClassName("head1").style.opacity = "1";
+      document.getElementsByClassName("head1")[0].style.opacity = "0.5";
+      document.getElementsByClassName("head1")[0].style.opacity = "0.5";
+      document.getElementsByClassName("head1")[0].style.opacity = "1";
     });
 });
