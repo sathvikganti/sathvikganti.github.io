@@ -293,10 +293,10 @@ h2 {
 .mainbar h1 {
   display: inline;
   margin: 4%;
-  -webkit-transition: opacity .2s, font-size .2s;
-   -moz-transition: opacity .2s, font-size .2s;
-     -o-transition: opacity .2s, font-size .2s;
-        transition: opacity .2s, font-size .2s;
+  -webkit-transition: color .2s, font-size .2s;
+   -moz-transition: color .2s, font-size .2s;
+     -o-transition: color .2s, font-size .2s;
+        transition: color .2s, font-size .2s;
 }
 
 .head1 {
@@ -319,8 +319,8 @@ h2 {
 
 .mainbar h1:hover {
  cursor: pointer;
- font-size: 2.01em;
- opacity: 0.7;
+ font-size: 2.05em;
+ color: black;
 }
 
 .nav {
