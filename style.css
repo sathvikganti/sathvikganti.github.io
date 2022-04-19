@@ -1,5 +1,5 @@
 /* **NOTE**: CSS From Glitch.com left alone. Removal will cause pure pain. */
-
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
 /* Our default values set as CSS variables */
 :root {
   --color-bg: #69F7BE;
