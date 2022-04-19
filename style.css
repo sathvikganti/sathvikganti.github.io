@@ -291,9 +291,8 @@ h2 {
 }
 
 .mainbar h1 {
-  margin-right: 30px;
-  margin-left: 0px;
   display: inline;
+  margin: 0 auto;
 }
 
 .head1 {
