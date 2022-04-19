@@ -4,15 +4,28 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     document.body.innerHTML = "<center><p>INCOMPATIBLE DEVICE: I'm too lazy to make this website mobile-compatible. Check back later!</p></center>";
 }
 
+stylesheet = document.styleSheets[0];
+stylesheet.insertRule(".head1 {opacity: 1}", 0);
+stylesheet.insertRule(".head2 {opacity: 0.5}", 0);
+stylesheet.insertRule(".head3 {opacity: 0.5}", 0);
 
 $(document).ready(function () {
     $(".head1").click(function () {
       $(".para").load("/index.html .para");
+      stylesheet.insertRule(".head1 {opacity: 1}", 0);
+      stylesheet.insertRule(".head2 {opacity: 0.5}", 0);
+      stylesheet.insertRule(".head3 {opacity: 0.5}", 0);
     });
     $(".head2").click(function () {
       $(".para").load("/projects.html .para");
+      stylesheet.insertRule(".head1 {opacity: 0.5}", 0);
+      stylesheet.insertRule(".head2 {opacity: 1}", 0);
+      stylesheet.insertRule(".head3 {opacity: 0.5}", 0);
     });
     $(".head3").click(function () {
       $(".para").load("/other.html .para");
+      stylesheet.insertRule(".head1 {opacity: 0.5}", 0);
+      stylesheet.insertRule(".head2 {opacity: 0.5}", 0);
+      stylesheet.insertRule(".head3 {opacity: 1}", 0);
     });
 });
