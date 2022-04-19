@@ -5,11 +5,27 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 $(document).ready(function () {
-    $('.nav h1').on('mouseover', function () {
-    $('.nav h1').not(this).addClass('fade');
-    }).on('mouseout', function() {
-    $('.nav h1').removeClass('fade');
-    });
+    $('.head1').hover(
+      function() { 
+        $( this ).css('opacity', '1');
+      }, function() {
+        $( this ).css('opacity', '0.5');
+      }
+    );
+    $('.head2').hover(
+      function() { 
+        $( this ).css('opacity', '1');
+      }, function() {
+        $( this ).css('opacity', '0.5');
+      }
+    );
+    $('.head3').hover(
+      function() { 
+        $( this ).css('opacity', '1');
+      }, function() {
+        $( this ).css('opacity', '0.5');
+      }
+    );
     $(".head1").click(function () {
       $("#para").load("/index.html #para");
       document.getElementById("head1").style.opacity = "1";
