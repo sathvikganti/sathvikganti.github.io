@@ -5,25 +5,42 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 $(document).ready(function () {
+    while(1) {
     document.getElementById("head1").style.opacity = "1";
     document.getElementById("head2").style.opacity = "0.5";
     document.getElementById("head3").style.opacity = "0.5";
+    }
     $(".head1").click(function () {
       $("#para").load("/index.html #para");
       document.getElementById("head1").style.opacity = "1";
       document.getElementById("head2").style.opacity = "0.5";
       document.getElementById("head3").style.opacity = "0.5";
+      while(1) {
+    document.getElementById("head1").style.opacity = "1";
+    document.getElementById("head2").style.opacity = "0.5";
+    document.getElementById("head3").style.opacity = "0.5";
+    }
     });
     $(".head2").click(function () {
       $("#para").load("/projects.html #para");
       document.getElementById("head1").style.opacity = "0.5";
       document.getElementById("head2").style.opacity = "1";
       document.getElementById("head3").style.opacity = "0.5";
+      while(1) {
+    document.getElementById("head1").style.opacity = "1";
+    document.getElementById("head2").style.opacity = "0.5";
+    document.getElementById("head3").style.opacity = "0.5";
+    }
     });
     $(".head3").click(function () {
       $("#para").load("/other.html #para");
       document.getElementById("head1").style.opacity = "0.5";
       document.getElementById("head2").style.opacity = "0.5";
       document.getElementById("head3").style.opacity = "1";
+      while(1) {
+    document.getElementById("head1").style.opacity = "1";
+    document.getElementById("head2").style.opacity = "0.5";
+    document.getElementById("head3").style.opacity = "0.5";
+    }
     });
 });
