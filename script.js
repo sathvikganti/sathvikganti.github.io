@@ -5,6 +5,11 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 }
 
 $(document).ready(function () {
+    $('.nav h1').on('mouseover', function () {
+    $('.nav h1').not(this).addClass('fade');
+    }).on('mouseout', function() {
+    $('.nav h1').removeClass('fade');
+    });
     $(".head1").click(function () {
       $("#para").load("/index.html #para");
       document.getElementById("head1").style.opacity = "1";
