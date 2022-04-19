@@ -310,6 +310,18 @@ h2 {
   float: left;
 }
 
+.head1:hover {
+  cursor: pointer;
+}
+
+.head2:hover {
+  cursor: pointer;
+}
+
+.head3:hover {
+  cursor: pointer;
+}
+
 .nav {
   display: inline;
 }
