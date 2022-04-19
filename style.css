@@ -297,10 +297,12 @@ h2 {
 
 .head1 {
   display: inline;
+  float: left;
 }
 
 .head2 {
   display: inline;
+  float: left;
 }
 
 .head3 {
