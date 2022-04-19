@@ -292,7 +292,7 @@ h2 {
 
 .mainbar h1 {
   display: inline;
-  margin: 3em;
+  margin: 1.5em;
 }
 
 .head1 {
@@ -305,6 +305,7 @@ h2 {
 
 .head3 {
   display: inline;
+  margin-left: -0.5em;
 }
 
 .nav {
