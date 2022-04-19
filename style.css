@@ -335,6 +335,10 @@ h2 {
   display: inline;
 }
 
+.fade {
+    opacity: 0.5;
+}
+
 html {
   height: 100%;
 }
