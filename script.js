@@ -7,12 +7,12 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 $(document).ready(function () {
     $(".head1").click(function () {
-      $(".mainbar").load("/index.html .mainbar");
+      $(".para").load("/index.html .para");
     });
     $(".head2").click(function () {
-      $(".mainbar").load("/projects.html .mainbar");
+      $(".para").load("/projects.html .para");
     });
     $(".head3").click(function () {
-      $(".mainbar").load("/other.html .mainbar");
+      $(".para").load("/other.html .para");
     });
 });
