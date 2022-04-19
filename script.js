@@ -4,24 +4,15 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     document.body.innerHTML = "<center><p>INCOMPATIBLE DEVICE: I'm too lazy to make this website mobile-compatible. Check back later!</p></center>";
 }
 
-var page = 0;
+
 $(document).ready(function () {
-    $("#arrowright").click(function () {
-        if (page == 0) {
-            $(".mainbar").load("/projects.html .mainbar");
-            page = 1;
-        } else {
-            $(".mainbar").load("/other.html .mainbar");
-            page = 2;
-        }
+    $(".head1").click(function () {
+      $(".mainbar").load("/index.html .mainbar");
     });
-    $("#arrowleft").click(function () {
-        if (page == 2) {
-            $(".mainbar").load("/projects.html .mainbar");
-            page = 1;
-        } else {
-            $(".mainbar").load("/index.html .mainbar");
-            page = 0;
-        }
+    $(".head2").click(function () {
+      $(".mainbar").load("/projects.html .mainbar");
+    });
+    $(".head3").click(function () {
+      $(".mainbar").load("/other.html .mainbar");
     });
 });
