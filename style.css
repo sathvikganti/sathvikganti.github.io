@@ -305,12 +305,14 @@ h2 {
   display: inline;
   float: left;
   animation: ease 0.2s fadeInAnimation2;
+  opacity: 0.5;
 }
 
 .head3 {
   display: inline;
   float: left;
   animation: ease 0.2s fadeInAnimation2;
+  opacity: 0.5;
 }
 
 .head1:hover {
