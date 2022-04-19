@@ -293,10 +293,10 @@ h2 {
 .mainbar h1 {
   display: inline;
   margin: 4%;
-  -webkit-transition: opacity .12s, font-size .12s;
-   -moz-transition: opacity .12s, font-size .12s;
-     -o-transition: opacity .12s, font-size .12s;
-        transition: opacity .12s, font-size .12s;
+  -webkit-transition: opacity .2s, font-size .2s;
+   -moz-transition: opacity .2s, font-size .2s;
+     -o-transition: opacity .2s, font-size .2s;
+        transition: opacity .2s, font-size .2s;
 }
 
 .head1 {
