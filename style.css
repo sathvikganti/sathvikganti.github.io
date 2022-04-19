@@ -293,18 +293,20 @@ h2 {
 .mainbar h1 {
   display: inline;
   margin: 4%;
+  -webkit-transition: opacity .12s, font-size .12s;
+   -moz-transition: opacity .12s, font-size .12s;
+     -o-transition: opacity .12s, font-size .12s;
+        transition: opacity .12s, font-size .12s;
 }
 
 .head1 {
   display: inline;
   float: left;
-  animation: ease 0.2s fadeInAnimation2;
 }
 
 .head2 {
   display: inline;
   float: left;
-  animation: ease 0.2s fadeInAnimation2;
   opacity: 0.5;
 }
 
@@ -315,22 +317,10 @@ h2 {
   opacity: 0.5;
 }
 
-.head1:hover {
-  cursor: pointer;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-
-.head2:hover {
-  cursor: pointer;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-
-.head3:hover {
-  cursor: pointer;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
+.mainbar h1:hover {
+ cursor: pointer;
+ font-size: 2.1em;
+ opacity: 0.7;
 }
 
 .nav {
