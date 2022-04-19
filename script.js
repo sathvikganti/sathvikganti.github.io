@@ -11,19 +11,19 @@ stylesheet.insertRule(".head3 {opacity: 0.5}", 0);
 
 $(document).ready(function () {
     $(".head1").click(function () {
-      $(".para").load("/index.html .para");
+      $("#para").load("/index.html #para");
       stylesheet.insertRule(".head1 {opacity: 1}", 0);
       stylesheet.insertRule(".head2 {opacity: 0.5}", 0);
       stylesheet.insertRule(".head3 {opacity: 0.5}", 0);
     });
     $(".head2").click(function () {
-      $(".para").load("/projects.html .para");
+      $("#para").load("/projects.html #para");
       stylesheet.insertRule(".head1 {opacity: 0.5}", 0);
       stylesheet.insertRule(".head2 {opacity: 1}", 0);
       stylesheet.insertRule(".head3 {opacity: 0.5}", 0);
     });
     $(".head3").click(function () {
-      $(".para").load("/other.html .para");
+      $("#para").load("/other.html #para");
       stylesheet.insertRule(".head1 {opacity: 0.5}", 0);
       stylesheet.insertRule(".head2 {opacity: 0.5}", 0);
       stylesheet.insertRule(".head3 {opacity: 1}", 0);
