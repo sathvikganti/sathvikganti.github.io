@@ -336,7 +336,8 @@ h2 {
 }
 
 .fade {
-    opacity: 0.5;
+    opacity: 1;
+    animation: ease 0.2s;
 }
 
 html {
