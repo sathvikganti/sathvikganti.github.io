@@ -253,11 +253,11 @@ h2 {
 }
 
 .mainbar p {
- animation: ease 0.5s fadeInAnimation; 
+ animation: ease 0.70s fadeInAnimation; 
 }
 
 .mainbar h1 {
-  animation: ease 0.5s fadeInAnimation;
+  animation: ease 0.70s fadeInAnimation;
 }
 
 .arrowright {
@@ -312,14 +312,17 @@ h2 {
 
 .head1:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .head2:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .head3:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 
 .nav {
